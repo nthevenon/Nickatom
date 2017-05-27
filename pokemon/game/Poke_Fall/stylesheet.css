@@ -1,0 +1,61 @@
+img {
+  height: 180px;
+  width: 140px;
+  position: absolute;
+}
+
+button {
+  height: 20px;
+  width: 100px;
+}
+
+body {
+  text-align: center; 
+  font-family: apple chancery;
+  background-image: url("http://www.walldevil.com/wallpapers/a79/5035-wallpaper-cool-postcard-background-desktop-design-media.jpg"); 
+}
+
+#gameBox {
+  height: 0;
+  width: 0;
+  visibility: hidden;
+  border: 2px solid black;
+}
+
+h1 {
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px red, 0 0 10px red;
+}
+
+#gameOver1 {
+  display: none;
+  width: 100%;
+  text-align: center;
+}
+
+#gameOver2 {
+  display: none;
+  width: 100%;
+  text-align: center;
+}
+#menuBar {
+  display: none;
+  width: 100%;
+  text-align: right;
+  margin-bottom: 7px;
+  border: 1px solid black;
+}
+
+#finalDisplay1 {
+  height: 400px;
+  width: 400px;
+}
+
+#finalDisplay2 {
+  height: 400px;
+  width: 100%;
+}
+
+.button {
+  color: blue;
+}

@@ -1,0 +1,71 @@
+#titleMenu {
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px red, 0 0 10px red;
+  display:none;
+}
+
+img {
+  height: 100px;
+}
+
+h2 {
+  font-size: 25px;
+  color: red;
+}
+
+#progressBar {
+  width: 400px;
+  height: 22px;
+  border: 1px solid;
+  background-color: #795;
+  border-radius: 10px;
+  margin: auto;
+  margin-top: 100px;
+  color: red;
+}
+
+#progressBar div {
+  height: 22px;
+  text-align: right;
+  line-height: 22px;
+  width: 0px;
+  background-color: red;
+  border-radius: 10px;
+  color: yellow;
+}
+
+body {
+  font-family: apple chancery;
+  text-align: center;
+  background-image: url("http://www.walldevil.com/wallpapers/a79/5035-wallpaper-cool-postcard-background-desktop-design-media.jpg");
+}
+
+#screensaver {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+  display: none;
+}
+
+.buttonMenu {
+  width: 100%;
+  visibility: hidden;
+  border: 3px solid red;
+  padding: 5px;
+  font-size:26px;
+  font-color:blue;
+}
+
+button {
+  font-size: 20px;
+  width: 150px;
+  height: 50px;
+}
+
+
+hr {
+  width: 1450px;
+  display: none;
+}

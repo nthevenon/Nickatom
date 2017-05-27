@@ -1,0 +1,37 @@
+body {
+  text-align: center;
+  background-image: url("http://www.walldevil.com/wallpapers/a79/5035-wallpaper-cool-postcard-background-desktop-design-media.jpg");
+  font-family: apple-chancery;
+}
+
+#pic {
+  display: none;
+  margin: auto;
+}
+
+h1 {
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px red, 0 0 10px red;
+}
+
+#buttondiv {
+  display: none;
+  margin: 10px;
+  align: center;
+}
+
+#gamePlay {
+  display: none;
+}
+
+#whatpokemon {
+  color: #c20000;
+}
+
+img {
+  height: 200px;
+  width: 200px;
+}
+#imggamefinish {
+  display: none;
+}

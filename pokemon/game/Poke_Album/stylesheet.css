@@ -1,0 +1,60 @@
+h1 {
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px red, 0 0 10px red;
+}
+
+body {
+  text-align: center;
+  font-family: apple chancery;
+  background-image: url("http://www.walldevil.com/wallpapers/a79/5035-wallpaper-cool-postcard-background-desktop-design-media.jpg");
+}
+
+span {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+#frame {
+  border: 50px double maroon;
+  width: 350px;
+  height: 500px;
+  overflow: hidden;
+  position: relative;
+}
+
+img {
+  width: 350px;
+  height: 500px;
+}
+
+#imgWrapper {
+  display: flex;
+  height: 500px;
+  position: absolute;
+  animation-name: slide;
+  animation-duration: 40s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes slide {
+  0% {left: 0}
+  20% {left: 0}
+  35% {left: -350px}
+  40% {left: -350px}
+  53% {left: -700px}
+  66% {left: -700px}
+  78% {left: -1050px}
+  89% {left: -1400px}
+  100% {left: 0}
+}
+
+.button {
+  color: blue;
+}
+
+p {
+  color: white;
+}
