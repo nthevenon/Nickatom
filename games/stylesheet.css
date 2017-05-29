@@ -20,9 +20,11 @@ body {
 	color: #c3c5c9;
 }
 #pokemonappdiv {
-	text-align: center;
 	width: 450px;
 	height: 250px;
 	border: white solid 3px;
 	border-radius: 30%;
+	margin: auto;
+    padding: 10px;
+    text-align: center;
 }
