@@ -11,27 +11,51 @@
 </head>
 <body>
 <h1>Poke Touch</h1>
-<div>
-  <a class="button" href="../../../index.html">HOMEPAGE</a>
+<a class="button" href="../../../index.html">HOMEPAGE</a>
+<br>
+<div style="text-align: center; margin:0 auto;">
   <br>
   <br>
-  <label id="score">SCORE: 0</label>
-  <br>
-  <br>
-  <img id="ball" src="http://img03.deviantart.net/8a92/i/2013/163/7/a/masterball_by_britishtime-d68qina.png">
-  <table style="width: 2000px">
-  <tr>
-    <th>Bonus</th>
-  </tr>
-  <tr>
-    <td><img src="https://pro-rankedboost.netdna-ssl.com/wp-content/uploads/2016/08/Potion-Pokemon-Go.png"><p>150</p></td>
-  </tr>
-  <tr> 
-    <td>94</td>
-  </tr>
-</table>
+  <table id="parentTable" style="text-align: center;">
+  <tbody>
+    <tr>
+      <td style="border-right: solid  1px red">
+        <label id="score">SCORE: 0</label>
+        <br>
+        <img id="ball" src="http://img03.deviantart.net/8a92/i/2013/163/7/a/masterball_by_britishtime-d68qina.png"> 
+      </td>
+      <td>
+        <table style="width: 400px">
+        <tbody>
+          <tr>
+          <td>
+            Bonus
+          </td>
+          </tr>
+          <tr>
+          <td>
+            <img id="potion1" src="https://pro-rankedboost.netdna-ssl.com/wp-content/uploads/2016/08/Potion-Pokemon-Go.png"><p>You need 150 point to activate this potion. Every time you click this potion, the point increment will increase by 1!</p>
+          </td>
+          </tr>
+          <tr> 
+          <td>
+          <img id="potion2" src="https://pro-rankedboost.netdna-ssl.com/wp-content/uploads/2016/08/Super-Potion-Pokemon-Go.png"><p>You need 750 points to activate this potion. Every time you click this potion, the point increment will increase by 1 and increase your point every second!</p>
+          </td>
+          </tr>
+          <tr> 
+          <td>
+          <img id="potion3" src="https://pro-rankedboost.netdna-ssl.com/wp-content/uploads/2016/08/Pokemon-Go-Potion.png"><p>3000</p>
+          </td>
+          </tr>
+          </tbody>
+        </table>
+      </td>
+    </tr>
+    </tbody>
+  </table>
+  <img id="special" src = "https://vignette1.wikia.nocookie.net/pokemon/images/b/b8/052Meowth_BW_anime.png/revision/latest?cb=20150101230316">
 </div>
-
+<br>
 <button id="startgame">Start Game</button>
 </body>
 </html>

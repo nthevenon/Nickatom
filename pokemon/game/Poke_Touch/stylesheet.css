@@ -6,8 +6,7 @@ h1 {
 body {
   text-align: center;
   font-family: apple chancery;
-  bacground-image: url("http://www.walldevil.com/wallpapers/a79/5035-wallpaper-cool-postcard-background-desktop-design-media.jpg"); 
-  background-color: blue;
+  background-color: blue; 
 }
 
 #ball {
@@ -24,6 +23,8 @@ div {
   padding: 10px;
   display:none;
   width: 100%;
+  text-align: center;
+  color: orange;
 }
 button {
   display: centre;
@@ -32,9 +33,22 @@ button {
 table {
   text-align: center;
   align-self: center;
+  margin:0 auto;
 }
 
 img {
   width: 100px;
   height: 100px;
+}
+#parentTable tr td {
+  padding: 20px;
+}
+#special {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  display: none;
+}
+a {
+  color: orange;
 }
