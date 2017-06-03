@@ -1,0 +1,28 @@
+h1 {
+	font-size: 40px;
+	font-family: apple-chancery;
+	color: red;
+
+}
+
+h2 {
+	font-size: 35px;
+	font-family: arial;
+	color: yellow;
+}
+
+body {
+	text-align: center;
+	background-color: blue; 
+	background-size: cover;                       
+}
+
+#Homepage {
+color: red;
+background-color: black;
+}
+
+#Games {
+color: yellow;
+background-color: black;
+}
