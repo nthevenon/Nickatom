@@ -1,7 +1,7 @@
 body {
   text-align: center;
   font-family:apple chancery;
-  background-image: url("http://www.walldevil.com/wallpapers/a79/5035-wallpaper-cool-postcard-background-desktop-design-media.jpg");
+  background-color: blue;
 }
 
 h1 {
@@ -25,6 +25,6 @@ div {
   padding: 10px;
 }
 
-.button {
-  color: blue;
+#petit {
+color: red;
 }

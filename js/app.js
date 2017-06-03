@@ -1,1 +1,3 @@
-("Homepage").click
+("#Homepage").click
+
+("#Games").click

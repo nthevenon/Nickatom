@@ -11,7 +11,7 @@ p {
 body {
   text-align: center;
   font-family: apple chancery;
-  background-image: url("http://www.walldevil.com/wallpapers/a79/5035-wallpaper-cool-postcard-background-desktop-design-media.jpg");
+  background-color: blue;
 }
 
 img {
@@ -21,7 +21,10 @@ img {
 .name {
   color: white;
 }
-haha{
-  color:blue;
+.haha{
+  color:red;
 }
 
+#Hello {
+  color: yellow;
+}
