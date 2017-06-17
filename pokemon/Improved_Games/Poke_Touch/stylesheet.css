@@ -10,8 +10,8 @@ body {
 }
 
 #ball {
-  height: 150px;
-  width: 150px;
+  height: 250px;
+  width: 250px;
 }
 
 label {
@@ -51,4 +51,33 @@ img {
 }
 a {
   color: orange;
+}
+#progressBar {
+  width: 400px;
+  height: 22px;
+  border: 1px solid;
+  background-color: #795;
+  border-radius: 10px;
+  margin: auto;
+  margin-top: 100px;
+  color: red;
+}
+
+#progressBar div {
+  height: 22px;
+  text-align: right;
+  line-height: 22px;
+  width: 0px;
+  background-color: red;
+  border-radius: 10px;
+  color: yellow;
+}
+
+#finalpoke {
+  display: none;
+  height: 150px;
+  width: 150px;
+}
+#score {
+  font-size: 25px;
 }
