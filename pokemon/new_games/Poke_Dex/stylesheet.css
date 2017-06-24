@@ -1,7 +1,7 @@
 body {
   text-align:center;
   font-family:apple chancery;
-  background-image: url("http://www.walldevil.com/wallpapers/a79/5035-wallpaper-cool-postcard-background-desktop-design-media.jpg");
+  background-color: blue;
 }
 h1 {
   color: white;
@@ -29,27 +29,16 @@ div{
   height:200px;
   float: left;
   width: 79%;
+  color: white;
 }
 .pokemon{
   height:50px;
   margin-top:15px;
+  font-color: white;
 }
-#Kyurem{
-  background: url("");
+a {
+	color: red;
 }
-#Pikachu{
-  background-size:contain; 
-   background: url("http://vignette4.wikia.nocookie.net/pokemon/images/5/5f/025Pikachu_OS_anime_11.png");
-}
-#Giratina{
-  background: url("");
-}
-#{
-  background: url("");
-}
-#{
-  background: url("");
-}
-#{
-  background: url("");
+h3 {
+	color: red;
 }
