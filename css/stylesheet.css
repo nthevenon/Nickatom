@@ -14,7 +14,8 @@ h2 {
 body {
 	text-align: center;
 	background-color: blue; 
-	background-size: cover;                       
+	background-size: cover; 
+	font-family: apple-chancery;                      
 }
 
 #Homepage {
@@ -30,4 +31,11 @@ background-color: black;
 #Pop {
 font-size: 30px;
 color: black;
+}
+#label_top {
+	position:absolute;
+	top: 37px;
+	left: 250px;
+	color: red;
+	font-size: 25px;
 }

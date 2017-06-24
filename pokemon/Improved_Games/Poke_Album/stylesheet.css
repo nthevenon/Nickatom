@@ -54,6 +54,9 @@ img {
   100% {left: 0}
 }
 
+.gone {
+  visibility: hidden;
+}
 #H {
     margin: auto;
     width: 100%;
