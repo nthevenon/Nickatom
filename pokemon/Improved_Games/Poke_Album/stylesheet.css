@@ -6,7 +6,7 @@ h1 {
 body {
   text-align: center;
   font-family: apple chancery;
-  background-image: url("http://www.walldevil.com/wallpapers/a79/5035-wallpaper-cool-postcard-background-desktop-design-media.jpg");
+  background-color: blue;
 }
 
 span {
@@ -23,6 +23,9 @@ span {
   height: 500px;
   overflow: hidden;
   position: relative;
+  float: left;
+  margin-left: 30px;
+  margin-right: 30px;
 }
 
 img {
@@ -51,10 +54,28 @@ img {
   100% {left: 0}
 }
 
+#H {
+    margin: auto;
+    width: 100%;
+}
+
 .button {
-  color: blue;
+  color: red;
 }
 
 p {
   color: white;
+}
+
+#P11 {
+  margin-left: 60px;
+  margin: auto;
+  float: left;
+  width: 400px;
+}
+
+#POKEMON {
+  float: left;
+  margin-left: 55px;
+  width: 400px;
 }

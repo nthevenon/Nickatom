@@ -45,7 +45,10 @@ $("#submitButton").click(function() {
     $("#imggamefinish").css('width', '600px');
   } else if (ans == pokeName(pokeList[count])) {
     count++;
+    $("#correctness").html("");
     inputpicture(pokeList[count]);
+  } else if(ans != pokeName(pokeList[count])) {
+    $("#correctness").html("Wrong name");
   }
 })
 

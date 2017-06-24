@@ -16,6 +16,9 @@ body {
 
 img {
   width: 100px;
+  position: absolute;
+  top: ;
+  left: ;
 }
 
 .name {
