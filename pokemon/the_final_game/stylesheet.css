@@ -37,7 +37,7 @@ h2 {
 body {
   font-family: apple chancery;
   text-align: center;
-  background-image: url("http://www.walldevil.com/wallpapers/a79/5035-wallpaper-cool-postcard-background-desktop-design-media.jpg");
+  background-color: blue;
 }
 
 #screensaver {
@@ -54,14 +54,15 @@ body {
   visibility: hidden;
   border: 3px solid red;
   padding: 5px;
-  font-size:26px;
-  font-color:blue;
+  font-size: 26px;
+  color: purple;
 }
 
 button {
   font-size: 20px;
   width: 150px;
   height: 50px;
+  color: purple;
 }
 
 
